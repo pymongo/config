@@ -1,0 +1,18 @@
+{
+    "rust-analyzer.checkOnSave.overrideCommand": [
+        "./x.py",
+        "check",
+        "--json-output"
+    ],
+    "rust-analyzer.checkOnSave.command": "check",
+    "rust-analyzer.rustcSource": "./Cargo.toml",
+    "rust-analyzer.cargo.runBuildScripts": false,
+    "rust-analyzer.procMacro.enable": false,
+    "search.exclude": {
+        "src/": true
+    },
+    "files.exclude": {
+        "target": true,
+        "Cargo.lock": true
+    }
+}
