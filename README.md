@@ -11,3 +11,9 @@ ln vscode/keybindings.json ~/.config/Code/User/keybindings.json
 # rust-lang/rust
 ln vscode/rust_repo_settings.json ~/repos/clone_repos/rust/.vscode/settings.json
 ```
+
+## Linux
+
+```bash
+ln linux/.xprofile ~/.xprofile
+```
