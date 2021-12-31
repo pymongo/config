@@ -1,5 +1,5 @@
 {
-    "rust-analyzer.runnableEnv": {},
+    /* rust-analyzer relative config */
     // "rust-analyzer.rustcSource": "/home/w/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/rustc-src/rust/compiler/rustc_driver/Cargo.toml",
     // "rust-analyzer.server.path": "/home/w/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/rust-analyzer",
     // "rust-analyzer.server.path": "/home/w/.config/Code/User/globalStorage/matklad.rust-analyzer/rust-analyzer-x86_64-unknown-linux-gnu",
@@ -24,9 +24,8 @@
     "files.autoSave": "afterDelay",
     "files.exclude": {
         ".idea": true,
-        ".gitmodules": true
-        // "target": true,
-        // "Cargo.lock": true,
+        ".gitmodules": true,
+        "Cargo.lock": true
     },
 
     "errorLens.enabledDiagnosticLevels": [
@@ -36,15 +35,11 @@
     ],
     "errorLens.gutterIconsEnabled": true,
 
-    // "go.testFlags": ["-v"],
-    // "C_Cpp.clang_format_path": "/usr/bin/clang-format",
-    // "vim.insertModeKeyBindings": [{
-    //     "before": ["j","j"],
-    //     "after": ["<Esc>"]
-    // }],
+    // "vim.insertModeKeyBindings": [{"before": ["j","j"],"after": ["<Esc>"]}],
 
     "cSpell.diagnosticLevel": "Hint",
     "cSpell.userWords": [
+        "abortable",
         "centos",
         "chrono",
         "clickhouse",
@@ -53,11 +48,14 @@
         "concat",
         "curr",
         "datetime",
+        "epoll",
         "errno",
         "eval",
         "futs",
+        "glommio",
         "graphviz",
         "hasher",
+        "iouring",
         "isahc",
         "jsonwebtoken",
         "lalrpop",
@@ -67,6 +65,8 @@
         "lldb",
         "llvm",
         "manjaro",
+        "memlock",
+        "monoio",
         "num",
         "nums",
         "openapi",
@@ -74,6 +74,7 @@
         "peekable",
         "println",
         "protobuf",
+        "quantile",
         "readline",
         "repr",
         "rustc",
@@ -81,7 +82,9 @@
         "strftime",
         "struct",
         "syscall",
+        "unpark",
         "upsert",
+        "uring",
         "usize"
     ],
     "tabnine.experimentalAutoImports": true
