@@ -34,7 +34,6 @@
         "info"
     ],
     "errorLens.gutterIconsEnabled": true,
-
     // "vim.insertModeKeyBindings": [{"before": ["j","j"],"after": ["<Esc>"]}],
 
     "cSpell.diagnosticLevel": "Hint",
@@ -87,5 +86,5 @@
         "uring",
         "usize"
     ],
-    "tabnine.experimentalAutoImports": true
+    "editor.copyWithSyntaxHighlighting": false
 }

@@ -19,5 +19,6 @@ ln linux/.xprofile ~/.xprofile
 
 ### bash
 ```bash
-ln bashrc.sh ~/.bashrc.sh
+ln bashrc.sh ~/bashrc.sh
+echo "source ~/bashrc.sh" >> ~/.bashrc
 ```
