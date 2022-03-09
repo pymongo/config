@@ -20,6 +20,7 @@ alias ju="journalctl --user --output cat"
 alias gitac="git add . && git commit -m \"$(date +'%x %X')\""
 # use `github.com.cnpmjs.org` instead?
 alias gitproxy="all_proxy=socks5://127.0.0.1:41537 git"
+alias cd_wine="cd '/home/w/.wine/drive_c/Program Files (x86)'"
 
 ### deprecated/macos alias
 : <<'BLOCK_COMMENT'
