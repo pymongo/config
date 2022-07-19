@@ -2,17 +2,18 @@
 
 ## env_var
 ### PATH
-# 手动把 rust 加入到 PATH 环境变量的原因是 pacman 的 rustup 没有 ~/.cargo/env，这样能统一 普通 rustup 和 pacman 的 rustup 所有 cargo install 的 binary
 export PATH="$PATH:$HOME/.cargo/bin" # protoc need a absolute path of protoc-gen-rust
-#export PATH=$HOME/.tiup/bin:$PATH
 
 ### other env
 export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+# Rust-For-Linux `make xconfig` 
+export LLVM=1
 
 ## alias
 
 ### alias command shortcut
+export PROXY="all_proxy=127.0.0.1:34087"
 alias ec="expressvpn connect"
 alias edd="expressvpn disconnect"
 alias sysu="systemctl --user"
