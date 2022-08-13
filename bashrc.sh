@@ -7,6 +7,7 @@ export PATH="$PATH:$HOME/.cargo/bin:$HOME/go/bin" # protoc need a absolute path 
 ### other env
 export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
+export GOPROXY=https://goproxy.cn
 # Rust-For-Linux `make xconfig` 
 export LLVM=1
 
@@ -30,4 +31,3 @@ alias uncaps="hidutil property --set '{\"UserKeyMapping\":[{\"HIDKeyboardModifie
 alias disable_middle_button="xinput set-button-map 17 1 0 3"
 alias enable_middle_button="xinput set-button-map 17 1 2 3"
 BLOCK_COMMENT
-
