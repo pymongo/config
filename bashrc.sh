@@ -8,17 +8,11 @@ export PATH="$PATH:$HOME/.cargo/bin:$HOME/go/bin" # protoc need a absolute path 
 export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 export GOPROXY=https://goproxy.cn
-# Rust-For-Linux `make xconfig` 
-export LLVM=1
 
 ## alias
 
 ### alias command shortcut
-export PROXY="all_proxy=127.0.0.1:34087"
-export PROXY2="all_proxy=192.168.12.12:7890"
-alias ec="expressvpn connect"
-alias edd="expressvpn disconnect"
-alias sysu="systemctl --user"
+export PROXY="all_proxy=192.168.12.12:7890"
 alias ju="journalctl --user --output cat"
 alias gitac="git add . && git commit -m \"$(date +'%x %X')\""
 # use `github.com.cnpmjs.org` instead?
