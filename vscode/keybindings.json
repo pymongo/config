@@ -35,7 +35,7 @@
     },
     // next error
     {
-        "key": "meta+f",
+        "key": "ctrl+alt+f",
         "command": "actions.find",
         "when": "editorFocus || editorIsOpen"
     },
@@ -198,7 +198,7 @@
         "when": "inFilesPicker && inQuickOpen"
     },
     {
-        "key": "meta+a",
+        "key": "ctrl+alt+a",
         "command": "editor.action.selectAll"
     },
     {
@@ -347,5 +347,19 @@
         "key": "ctrl+f",
         "command": "-workbench.action.terminal.focusFind",
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+f1",
+        "command": "-editor.action.accessibilityHelp"
+    },
+    {
+        "key": "alt+f1",
+        "command": "editor.action.marker.prev",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+f8",
+        "command": "-editor.action.marker.prev",
+        "when": "editorFocus"
     }
 ] 
