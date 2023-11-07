@@ -9,6 +9,15 @@ export RUSTUP_DIST_SERVER="https://rsproxy.cn"
 export RUSTUP_UPDATE_ROOT="https://rsproxy.cn/rustup"
 export GOPROXY=https://goproxy.cn
 
+proxy_host=10.246.23.220
+proxy_port=10809
+alias socks="ALL_PROXY=http://$proxy_host:$proxy_port/ \
+    http_proxy=http://$proxy_host:$proxy_port/ \
+    https_proxy=http://$proxy_host:$proxy_port/ \
+    HTTP_PROXY=http://$proxy_host:$proxy_port/ \
+    HTTPS_PROXY=http://$proxy_host:$proxy_port/"
+export http_proxy=http://$proxy_host:$proxy_port/
+
 ## alias
 
 ### alias command shortcut
