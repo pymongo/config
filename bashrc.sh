@@ -16,7 +16,6 @@ alias socks="ALL_PROXY=http://$proxy_host:$proxy_port/ \
     https_proxy=http://$proxy_host:$proxy_port/ \
     HTTP_PROXY=http://$proxy_host:$proxy_port/ \
     HTTPS_PROXY=http://$proxy_host:$proxy_port/"
-export http_proxy=http://$proxy_host:$proxy_port/
 
 ## alias
 
