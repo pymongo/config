@@ -1,6 +1,4 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
-    // rerun last task
     {
         "key": "meta+r",
         "command": "workbench.action.openRecent"
@@ -65,7 +63,7 @@
         "when": "inDebugRepl && textInputFocus"
     },
     {
-        "key": "meta+f",
+        "key": "ctrl+alt+f",
         "command": "workbench.action.terminal.focusFind",
         "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
     },
@@ -339,7 +337,7 @@
         "command": "-workbench.action.quit"
     },
     {
-        "key": "alt+meta+f ctrl+alt+meta+f",
+        "key": "ctrl+alt+f",
         "command": "workbench.action.terminal.focusFind",
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
@@ -361,5 +359,15 @@
         "key": "shift+alt+f8",
         "command": "-editor.action.marker.prev",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
     }
 ] 
